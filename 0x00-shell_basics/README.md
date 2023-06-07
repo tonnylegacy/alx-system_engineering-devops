@@ -13,3 +13,4 @@
 12-file_type:This script uses the file command with the file path /tmp/iamafile as an argument. The file command is used to determine the file type and provides information about the file.
 13-symbolic_link:This script uses the ln command with the -s option to create a symbolic link.
 14-copy_html:This script uses the find command to search for HTML files (*.html) in the current working directory (.) with a maximum depth of 1 (to avoid recursively searching subdirectories). The -newer ../ option ensures that only files newer than their counterparts in the parent directory are considered.
+100-lets_move:This script uses the mv command with the pattern [A-Z]* to select files starting with an uppercase letter. The selected files are then moved to the directory /tmp/u/.
