@@ -12,3 +12,4 @@
 11-lists:This script lists all files in the current directory, the parent directory, and the /boot directory in long format, including hidden files. It uses the ls -la command to list files with detailed information, where -l enables long format listing and -a includes hidden files.
 12-file_type:This script uses the file command with the file path /tmp/iamafile as an argument. The file command is used to determine the file type and provides information about the file.
 13-symbolic_link:This script uses the ln command with the -s option to create a symbolic link.
+14-copy_html:This script uses the find command to search for HTML files (*.html) in the current working directory (.) with a maximum depth of 1 (to avoid recursively searching subdirectories). The -newer ../ option ensures that only files newer than their counterparts in the parent directory are considered.
