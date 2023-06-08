@@ -15,3 +15,6 @@
 14-copy_html:This script uses the find command to search for HTML files (*.html) in the current working directory (.) with a maximum depth of 1 (to avoid recursively searching subdirectories). The -newer ../ option ensures that only files newer than their counterparts in the parent directory are considered.
 100-lets_move:This script uses the mv command with the pattern [A-Z]* to select files starting with an uppercase letter. The selected files are then moved to the directory /tmp/u/.
 101-clean_emacs:This script uses the rm command with the -f option to forcefully delete all files matching the pattern *~. The * is a wildcard that matches any characters, and the ~ at the end matches files that end with the character ~.
+ 102-tree:This script uses the mkdir command with the -p option to create directories. The -p option ensures that the parent directories are created if they don't exist. The script creates the directories welcome/, welcome/to/, and welcome/to/school using brace expansion {} to specify the nested directory structure.
+
+
