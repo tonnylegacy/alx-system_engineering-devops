@@ -5,3 +5,4 @@
  4-lastlines:When you execute the script ./4-lastlines, it will display the last 10 lines of the /etc/passwd file on the standard output.
  5-firstlines:When you execute the script ./5-firstlines, it will display the first 10 lines of the /etc/passwd file on the standard output.
 6-third_line:When you execute the script ./6-third_line, it will display the third line of the file iacta on the standard output. The script uses the head and tail commands to extract the third line from the file.
+ 7-file:After running the script, you can verify the file creation using ls -l and check its contents using cat -e '*\\'"Best School"\'\\*$\?\*\*\*\*\*:).
