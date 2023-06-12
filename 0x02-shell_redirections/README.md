@@ -3,3 +3,4 @@
  2-hellofile:When you execute the script ./2-hellofile, it will display the content of the /etc/passwd file on the standard output.
  3-twofiles:When you execute the script ./3-twofiles, it will display the content of both the /etc/passwd and /etc/hosts files on the standard output.
  4-lastlines:When you execute the script ./4-lastlines, it will display the last 10 lines of the /etc/passwd file on the standard output.
+ 5-firstlines:When you execute the script ./5-firstlines, it will display the first 10 lines of the /etc/passwd file on the standard output.
