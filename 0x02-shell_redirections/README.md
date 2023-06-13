@@ -20,4 +20,4 @@ gep -c "bin" /etc/passwd:This script counts the number of lines that contain the
 19-AZ:This script replaces all occurrences of 'A' with 'Z' and 'c' with 'e'
 20-hiago:This script removes all occurrences of 'c' and 'C' from input
 21-reverse:This script reverses its input
-
+22-users_and_homes:This script displays all users and their home directories, sorted by users.
