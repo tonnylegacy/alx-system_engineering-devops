@@ -3,3 +3,5 @@
 2-path:In this script, the first line is the shebang (#!/bin/bash) as required. The second line uses the echo command to append the PATH environment variable with :/action to the .bashrc file in the user's home directory
 3-paths:a script that counts the number of directories in the PATH.
 4-global_variables: a script that lists environment variables.
+5-local_variables:a script that lists all local variables and environment variables, and functions.
+
