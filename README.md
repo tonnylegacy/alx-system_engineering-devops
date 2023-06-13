@@ -1,1 +1,1 @@
- a script that prints the absolute path name of the current working directory.
+This repository contains a collection of scripts for the 0x00-shell_basics project. The scripts are written in Bash and perform various operations related to shell basics, such as directory navigation and listing contents.
