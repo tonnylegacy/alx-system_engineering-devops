@@ -19,3 +19,5 @@ gep -c "bin" /etc/passwd:This script counts the number of lines that contain the
 18-letteronly:This script displays all lines of the file /etc/ssh/sshd_config starting with a letter
 19-AZ:This script replaces all occurrences of 'A' with 'Z' and 'c' with 'e'
 20-hiago:This script removes all occurrences of 'c' and 'C' from input
+21-reverse:This script reverses its input
+
