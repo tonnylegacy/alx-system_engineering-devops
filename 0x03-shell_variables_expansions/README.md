@@ -2,3 +2,4 @@
  1-hello_you:In this script, the first line is the shebang (#!/bin/bash) as required. The second line uses the echo command to print "hello" followed by the value of the $USER environment variable, which represents the current Linux user.
 2-path:In this script, the first line is the shebang (#!/bin/bash) as required. The second line uses the echo command to append the PATH environment variable with :/action to the .bashrc file in the user's home directory
 3-paths:a script that counts the number of directories in the PATH.
+4-global_variables: a script that lists environment variables.
