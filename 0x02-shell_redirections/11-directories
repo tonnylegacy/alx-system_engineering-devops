@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -type d -not -path '*/\.*' -print | grep -c /
+find . -type d | grep -v "^\.$" | grep -v "^\.\.$" | grep -v "/\." | wc -l
