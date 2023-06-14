@@ -14,4 +14,5 @@
 13-print_float:Here's the script that prints a number with two decimal places
 100-decimal_to_hexadecim: Here's the script that converts a number from base 10 to base 16
 101-rot13: Here's the script that encodes and decodes text using the rot13 encryption
-102-odd:Here's the script that prints every other line from the input, starting with the first line:
+102-odd:Here's the script that prints every other line from the input, starting with the first line
+103-water_and_stir: we can create a shell script that uses the tr command to translate the characters from one base to another. Here's the script:
